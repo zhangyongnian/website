@@ -1,24 +1,23 @@
-# game
+reset.css文件被修改:注释掉了
+npm install vue-router
+npm  install  stylus  stylus-loader
+npm  install    vuex 
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Lints and fixes files
-```
-yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+上线刷新报404
+  {
+    path: '/:id',
+    redirect: '/home'
+  },
+   {
+     path: '/',
+     redirect: '/home'
+   }
+刷新之后找不到原网页 需要重新匹配
+
+
