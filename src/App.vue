@@ -10,6 +10,9 @@
 // import Home from "./pages/Home/Home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+// import Component from 'vue-class-component';
+// import { APlayer } from '@moefe/vue-aplayer';
+
 export default {
   name: "app",
   components: {
