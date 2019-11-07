@@ -4,6 +4,8 @@ import App from './App.vue'
 import router from './router'
 // 引入store
 // import store from './store'
+
+
 import APlayer from '@moefe/vue-aplayer'
 Vue.use(APlayer, {
   defaultCover: 'https://github.com/u3u.png',

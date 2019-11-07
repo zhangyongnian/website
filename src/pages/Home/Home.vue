@@ -1,16 +1,17 @@
 <template>
    <div class="home">
-    <div class="shaky">
+  
+   <iframe  class="home-iframe"  target="_blank"  src="https://www.baidu.com" frameborder="0"
+   scrolling="no"
+   ></iframe> 
+     <div class="shaky">
   <img
       class="header-gif"
-      src="http://hbimg.b0.upaiyun.com/3a79b9621ec11645340b15b091868af1eaa539c4fdf4-ajLkdI_fw658"
+      src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573137497496&di=4cafe339aa5c1d50d2fad9cedc8bd74f&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180912%2F4274978dd506412884437e80e413b43f.gif"
     />
-    断剑重铸之日,骑士归来之时
- <img
-      class="header-gif"
-      src="http://hbimg.b0.upaiyun.com/3a79b9621ec11645340b15b091868af1eaa539c4fdf4-ajLkdI_fw658"
-    />
+  <div class="home-text">一曲肝肠断,天涯何处觅知音</div> 
     </div>
+ 
    
   </div>
 </template>
@@ -25,7 +26,7 @@ export default {};
     display inline-block
     font-size 100px
     color #666
-    padding-bottom 100px
+    // padding-bottom 100px
     text-align center
     background-image url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573057251841&di=1279269e0f328750c5e36680b2c7e6e4&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20171107%2F8dfce3a16e684eb08f3d70f6e91d4cc2.gif')
     transform-origin center center
@@ -35,6 +36,13 @@ export default {};
     animation-timing-function ease-in-out
     animation-delay 0s
     animation-play-state running
+    .header-gif
+      float right 
+      width 30%
+      height 100%
+    .home-text
+      position relative
+      top  50px
   @keyframes shaky-slow
     0%
       -webkit-transform translate(0px, 0px) rotate(0deg)
@@ -237,4 +245,11 @@ export default {};
       transform translate(-1.4px, 1.3px) rotate(-2deg)
     98%
       transform translate(1.3px, 1px) rotate(-0.5deg)
+  .home-iframe
+    width 100%
+    // height 790px
+    height 660px
+
+
+
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div class="header">
     <img class="header-img" src="./img/logo.png" />
-    <!-- <img class="header-gif" src="./img//QQ图片20190830091114.gif"/> -->
     <img
       class="header-gif"
       src="http://hbimg.b0.upaiyun.com/3a79b9621ec11645340b15b091868af1eaa539c4fdf4-ajLkdI_fw658"
@@ -34,12 +33,12 @@ export default {
   data() {
     return {
       audio: [
-        {
-          name: "东西（Cover：林俊呈）",
-          artist: "纳豆",
-          url: "https://cdn.moefe.org/music/mp3/thing.mp3",
-          cover: 'https://p1.music.126.net/5zs7IvmLv7KahY3BFzUmrg==/109951163635241613.jpg?param=300y300', // prettier-ignore
-          lrc: "https://cdn.moefe.org/music/lrc/thing.lrc"
+         {
+          name: "一曲肝肠断",
+          artist: "背着琴的俩兄弟",
+          url: "https://sharefs.yun.kugou.com/201911072012/c486fd1c54d32c35892733b60c44a1dd/G177/M00/10/14/UYcBAF2Li2KAezcrACE9j3JX0Fg585.mp3",
+          // cover: 'https://p1.music.126.net/5zs7IvmLv7KahY3BFzUmrg==/109951163635241613.jpg?param=300y300', // 图片
+          // lrc: "https://cdn.moefe.org/music/lrc/thing.lrc" //歌词
         }
       ]
     };
@@ -61,6 +60,7 @@ export default {
     top 0
     left 430px
     width 770px
+    z-index 1
   .header-gif
     width 100px
     height 100px
